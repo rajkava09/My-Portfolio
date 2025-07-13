@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/jpeg" href="My pic.jpeg">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="home.html">
+          <img src="My pic.jpeg" alt="Logo">
+        </a>
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact">
+    <div class="contact-box">
+      <section class="contact-section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p>Have a question or want to work together?</p>
+
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            <input type="hidden" name="access_key" value="ed09282b-44ec-4060-ab55-efdcc19ac57c">
+
+            <div class="input-group">
+              <input type="text" name="name" required>
+              <label>Your Name</label>
+            </div>
+
+            <div class="input-group">
+              <input type="email" name="email" required>
+              <label>Your Email</label>
+            </div>
+
+            <div class="input-group">
+              <textarea name="message" required></textarea>
+              <label>Your Message</label>
+            </div>
+
+            <button type="submit">Send Message</button>
+          </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
